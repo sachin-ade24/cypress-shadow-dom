@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "baseUrl": "./",
+    "paths": {
+      "@fixtures/*": ["cypress/fixtures/*"],
+      "@support/*": ["cypress/support/*"],
+      "@pages/*": ["cypress/pages/*"]
+    }
+  },
+  "exclude": ["node_modules", "cypress/plugins/index.js"]
+}
